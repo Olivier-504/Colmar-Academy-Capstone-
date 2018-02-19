@@ -1,0 +1,61 @@
+/* Header Styling */
+
+.header {
+  display: flex;
+  width: cover;
+  height: 64px;
+  border: thin solid black;
+}
+
+.left {
+  display: flex;
+  padding-left: 24px;
+}
+
+.left h3 {
+  height: 32px;
+}
+
+.right {
+  display: flex;
+  align-items: center;
+  margin-left: 500px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.right nav {
+  padding-left: 16px;
+}
+
+/* Banner Styling */
+
+.banner {
+  padding-top: 32px;
+  padding-left: 24px;
+  padding-bottom: 32px;
+  display: flex;
+  border: thin solid black;
+}
+
+.banner img {
+  display: flex;
+  width: 60%;
+  border: thin solid red;
+}
+
+.bannertxt {
+  display: flex;
+  flex-direction: column;
+  border: thin solid red;
+  margin-right: 200px;
+}
+
+.bannertxt h1 {
+  display: flex;
+  border: thin solid red;
+}
+
+.bannertxt p {
+  display: flex;
+}
