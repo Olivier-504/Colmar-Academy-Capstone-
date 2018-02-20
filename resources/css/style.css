@@ -128,8 +128,51 @@
 
 .eman {
   display: flex;
-  padding-top: 16px;
+  padding-top: 46px;
   border: thin solid blue;
 }
 
 /* Banner3 */
+
+#tops {
+  display: block;
+  text-align: center;
+  width: cover;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  border: thin solid red;
+}
+
+.banner3 {
+  background-color: slategrey;
+}
+
+.classes {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 90px;
+  padding-right: 64px;
+}
+
+.readmore2 img {
+  width: 324px;
+  height: auto;
+}
+
+.readmore2 {
+  border: thin solid blue;
+  background-color: white;
+  margin-right: 32px;
+  width: 324px;
+  height: auto;
+}
+
+.readtxt2 {
+  background-color: white;
+  padding-left: 16px;
+}
+
+.bottomclass {
+  padding-top: 32px;
+  display: flex;
+}
