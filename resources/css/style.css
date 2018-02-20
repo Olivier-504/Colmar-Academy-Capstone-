@@ -175,4 +175,70 @@
 .bottomclass {
   padding-top: 32px;
   display: flex;
+  padding-bottom: 32px;
+}
+
+/* Banner 4 */
+
+#thesis {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+.banner4 {
+  width: cover;
+  display: flex;
+}
+
+.banner4left {
+  width: 60%;
+  padding-left: 24px;
+  border: thin solid green;
+}
+
+.banner4left video {
+  width: 721px;
+}
+
+.banner4left p {
+  padding-bottom: 32px;
+}
+
+.oppo {
+  width: 40%;
+  border: thin solid green;
+  padding-left: 24px;
+}
+
+.readmore3 {
+  display: flex;
+  border: thin solid red;
+}
+
+.readmore3 img {
+  width: 35%;
+  height: 176px;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.readtxt3 {
+  width: 65%;
+  padding-left: 16px;
+}
+
+.footer {
+  display: flex;
+  border: thin solid blue;
+  align-items: center;
+  padding-top: 16px;
+  padding-left: 24px;
+}
+
+
+.footerright {
+  border: thin solid red;
+  margin-left: 810px;
 }
