@@ -84,31 +84,52 @@
 
 .banner2 {
   width: cover;
-}
-
-.banner2 img {
-  padding-left: 24px;
   padding-top: 32px;
-  width: 60%;
+  display: flex;
+  padding-bottom: 32px;
 }
 
-.txt2 {
-  padding-left: 24px;
+.banner2left {
   width: 60%;
-  display: block;
+  padding-left: 24px;
+  border: thin solid green;
+}
+
+.banner2left img {
+  width: 721px;
+  border: thin solid green;
+}
+
+.reader {
+  width: 40%;
+  border: thin solid green;
 }
 
 .readmore {
-  width: 40%;
   display: flex;
-  flex-direction: column;
-  border: thin solid red;
+  padding-left: 16px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border: thin solid blue;
 }
 
 .readmore img {
   width: 35%;
+  height: 176px;
+  display: flex;
 }
 
-.readmore h3 p a {
-
+.readtxt {
+  width: 60%;
+  padding-left: 16px;
+  display: flex;
+  flex-direction: column;
 }
+
+.eman {
+  display: flex;
+  padding-top: 16px;
+  border: thin solid blue;
+}
+
+/* Banner3 */
