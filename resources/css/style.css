@@ -5,6 +5,7 @@
   width: cover;
   height: 64px;
   border: thin solid black;
+  background-color: white;
 }
 
 .left {
@@ -20,12 +21,15 @@
   display: flex;
   align-items: center;
   margin-left: 500px;
-  padding-left: 100px;
-  padding-right: 100px;
+  padding-right: 24px;
+  border: thin solid red;
+  justify-content: flex-end;
+  width: 90%;
 }
 
 .right nav {
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 /* Banner Styling */
@@ -34,28 +38,77 @@
   padding-top: 32px;
   padding-left: 24px;
   padding-bottom: 32px;
-  display: flex;
   border: thin solid black;
+  width: cover;
+  height: 500px;
+  display: flex;
+  background-color: slategrey;
 }
 
+
 .banner img {
-  display: flex;
+  border: thin solid green;
   width: 60%;
-  border: thin solid red;
 }
 
 .bannertxt {
   display: flex;
   flex-direction: column;
   border: thin solid red;
-  margin-right: 200px;
+  width: 260px;
+  margin-left: 24px;
+  align-items: center;
+  line-height: 1.2;
 }
 
-.bannertxt h1 {
-  display: flex;
+.one {
+  padding-top: 80px;
   border: thin solid red;
 }
 
-.bannertxt p {
+.two {
+  padding-top: 25px;
+  border: thin solid red;
+}
+
+.three {
+  padding-top: 8px;
+  padding-bottom: 8px;
+  border: thin solid red;
+  padding-left: 98px;
+  padding-right: 98px;
+  background-color: hsla(233, 17%, 50%, 1);
+}
+
+/* Banner2 Styling */
+
+.banner2 {
+  width: cover;
+}
+
+.banner2 img {
+  padding-left: 24px;
+  padding-top: 32px;
+  width: 60%;
+}
+
+.txt2 {
+  padding-left: 24px;
+  width: 60%;
+  display: block;
+}
+
+.readmore {
+  width: 40%;
   display: flex;
+  flex-direction: column;
+  border: thin solid red;
+}
+
+.readmore img {
+  width: 35%;
+}
+
+.readmore h3 p a {
+
 }
