@@ -8,6 +8,21 @@
   background-color: white;
 }
 
+.mobilehead {
+  display: none;
+}
+
+/* Mobile Header Styling */
+
+
+
+@media only screen and(min-width: 481px){
+  .left h3 {
+    display: none;
+  }
+}
+
+
 .left {
   display: flex;
   padding-left: 24px;
@@ -96,7 +111,7 @@
 }
 
 .banner2left img {
-  width: 721px;
+  width: 100%;
   border: thin solid green;
 }
 
@@ -198,7 +213,7 @@
 }
 
 .banner4left video {
-  width: 721px;
+  width: 100%;
 }
 
 .banner4left p {
