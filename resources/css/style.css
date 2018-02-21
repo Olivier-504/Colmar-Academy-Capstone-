@@ -16,9 +16,21 @@
 
 
 
-
-@media only screen and (max-width: 481px){
+@media only screen and (max-width: 480px){
   .left h3 {
+    display: none;
+  }
+  .mobilehead {
+    display: inline;
+    border: thin solid blue;
+    width: cover;
+    margin-left: 50px;
+    padding-left: 20px;
+  }
+  .left img {
+    border: thin solid red;
+  }
+  .right nav {
     display: none;
   }
 }
@@ -63,11 +75,27 @@
   background-color: slategrey;
 }
 
+@media only screen and (max-width: 480px) {
+  .banner {
+    display: block;
+    width: cover;
+    border: thin solid yellow;
+  }
+}
 
 .banner img {
   border: thin solid green;
   width: 60%;
 }
+
+
+@media only screen and (max-width: 480px) {
+  .banner img {
+    width: 90%;
+  }
+}
+
+
 
 .bannertxt {
   display: flex;
@@ -75,12 +103,14 @@
   border: thin solid red;
   width: 260px;
   margin-left: 24px;
+  margin-bottom: 32px;
   align-items: center;
+  justify-content: center;
   line-height: 1.2;
 }
 
+
 .one {
-  padding-top: 80px;
   border: thin solid red;
 }
 
@@ -118,9 +148,21 @@
   border: thin solid green;
 }
 
+@media only screen and (max-width: 480px) {
+  .banner2left {
+    display: none;
+  }
+}
+
 .reader {
   width: 40%;
   border: thin solid green;
+}
+
+@media only screen and (max-width: 480px) {
+  .reader {
+    width: 100%;
+  }
 }
 
 .readmore {
