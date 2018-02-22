@@ -109,6 +109,11 @@
   line-height: 1.2;
 }
 
+@media only screen and (max-width: 480px) {
+  .bannertxt {
+    margin-left: 33px;
+  }
+}
 
 .one {
   border: thin solid red;
@@ -243,6 +248,12 @@
   height: auto;
 }
 
+@media only screen and (max-width: 480px){
+  .readmore2 img {
+    display: none;
+  }
+}
+
 .readmore2 {
   border: thin solid blue;
   background-color: white;
@@ -254,6 +265,12 @@
 .readtxt2 {
   background-color: white;
   padding-left: 16px;
+}
+
+@media only screen and (max-width: 480px) {
+  .readtxt2 p {
+    display: none;
+  }
 }
 
 .bottomclass {
@@ -287,6 +304,22 @@
 
 .banner4left p {
   padding-bottom: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+  .banner4left {
+    width: 100%;
+    padding-left: 0px;
+  }
+  .banner4left h1 {
+    display: none;
+  }
+  .banner4left p {
+    display: none;
+  }
+  .oppo {
+    display: none;
+  }
 }
 
 .oppo {
@@ -325,4 +358,10 @@
 .footerright {
   border: thin solid red;
   margin-left: 810px;
+}
+
+@media only screen and (max-width: 480px) {
+  .footerright {
+    display: none;
+  }
 }
