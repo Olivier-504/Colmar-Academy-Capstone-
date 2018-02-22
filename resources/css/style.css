@@ -85,7 +85,6 @@
 }
 
 .banner img {
-  border: thin solid green;
   width: 60%;
 }
 
@@ -95,8 +94,6 @@
     width: 90%;
   }
 }
-
-
 
 .bannertxt {
   display: flex;
@@ -341,17 +338,23 @@
   padding-top: 32px;
   padding-bottom: 32px;
   text-align: center;
+  background-color: slategrey;
+  color: white;
 }
 
 .banner4 {
   width: cover;
   display: flex;
+  background-color: slategrey;
 }
 
 .banner4left {
   width: 60%;
   padding-left: 24px;
-  border: thin solid green;
+}
+
+.banner4left h1 {
+  background-color: hsl(240, 70%, 60%);
 }
 
 .banner4left video {
@@ -380,13 +383,13 @@
 
 .oppo {
   width: 40%;
-  border: thin solid green;
   padding-left: 24px;
 }
 
 .readmore3 {
   display: flex;
-  border: thin solid red;
+  border: thin solid black;
+  background-color: hsl(240, 70%, 60%);
 }
 
 .readmore3 img {
@@ -404,7 +407,8 @@
 
 .footer {
   display: flex;
-  border: thin solid blue;
+  background-color: hsl(240, 70%, 60%);
+  color: white;
   align-items: center;
   padding-top: 16px;
   padding-left: 24px;
@@ -419,7 +423,6 @@
 
 
 .footerright {
-  border: thin solid red;
   margin-left: 810px;
 }
 
