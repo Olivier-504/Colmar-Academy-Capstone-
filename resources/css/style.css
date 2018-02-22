@@ -52,7 +52,6 @@
   align-items: center;
   margin-left: 500px;
   padding-right: 24px;
-  border: thin solid red;
   justify-content: flex-end;
   width: 90%;
 }
@@ -262,6 +261,8 @@
   height: auto;
 }
 
+
+
 .readtxt2 {
   background-color: white;
   padding-left: 16px;
@@ -271,12 +272,25 @@
   .readtxt2 p {
     display: none;
   }
+  .readtxt2 h2 {
+    display: flex;
+    width: 324px;
+  }
 }
 
 .bottomclass {
   padding-top: 32px;
   display: flex;
+  width: 324px;
   padding-bottom: 32px;
+}
+
+@media only screen and (max-width: 480px) {
+  .bottomclass{
+    display: block;
+    margin-bottom: 54px;
+    margin-right: 100px;
+  }
 }
 
 /* Banner 4 */
