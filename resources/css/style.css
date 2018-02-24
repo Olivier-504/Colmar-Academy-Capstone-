@@ -23,6 +23,7 @@
     margin-left: 50px;
     padding-left: 20px;
   }
+
   .left img {
   }
   .right nav {
@@ -57,6 +58,11 @@
   padding-right: 16px;
   font-family: Helvetica;
   font-size: 20px;
+}
+
+
+.right nav:hover {
+  color: hsl(240, 70%, 60%);
 }
 
 /* Banner Styling */
@@ -115,6 +121,7 @@
   margin-bottom: 13px;
   font-size: 20px;
   color: black;
+  font-style: italic;
 }
 
 .three {
@@ -124,6 +131,10 @@
   padding-right: 98px;
   color: white;
   background-color: hsla(233, 17%, 50%, 1);
+}
+
+.three:hover {
+  color: hsl(240, 70%, 60%);
 }
 
 @media only screen and (max-width: 480px) {
@@ -146,6 +157,7 @@
   width: 60%;
   padding-left: 24px;
   background-color: slategrey;
+  font-size: 15px;
 }
 
 .banner2left img {
@@ -156,8 +168,8 @@
   background-color: hsl(240, 70%, 60%);
 }
 
-.banner2left {
-  font-size: 15px;
+.italic {
+  font-style: italic;
 }
 
 @media only screen and (max-width: 480px) {
